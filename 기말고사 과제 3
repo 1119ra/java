@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<p>2302570 이서정 </p>
+<head>
+
+</head>
+<body>
+    <canvas id = "canvas" width="578" height= "200"></canvas>
+    <script>
+        const canvas = documnet.getElementById('canvas');
+        const context = canvas.getContext('2d');
+
+        context.beginPath();
+        context.moveTo(100, 150);
+        context.lineTo(450, 50);
+    </script>
+</body>
+</html>
